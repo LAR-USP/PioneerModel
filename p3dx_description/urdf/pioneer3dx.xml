@@ -186,7 +186,7 @@ work original in ucs-ros-pkg.
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
@@ -218,7 +218,7 @@ work original in ucs-ros-pkg.
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
@@ -305,7 +305,7 @@ work original in ucs-ros-pkg.
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
@@ -382,7 +382,7 @@ work original in ucs-ros-pkg.
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
@@ -432,7 +432,7 @@ work original in ucs-ros-pkg.
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.01 0.01 0.01"/>
       </geometry>
     </collision>
   </link>
