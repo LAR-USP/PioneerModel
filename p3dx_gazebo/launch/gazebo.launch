@@ -21,7 +21,7 @@
 
     <!-- Load the URDF into the ROS Parameter Server -->
     <param name="robot_description"
-        command="$(find xacro)/xacro.py '$(find p3dx_description)/urdf/pioneer3dx.xacro'" />
+        command="$(find xacro)/xacro '$(find p3dx_description)/urdf/pioneer3dx.xacro'" />
 
     <!-- Run a python script to the send a service call to gazebo_ros to spawn 
         a URDF robot -->
@@ -29,7 +29,7 @@
         respawn="false" output="screen" args="-urdf -model p3dx -param robot_description" />
 
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 
     <!-- ros_control p3rd launch file -->
     <!-- <include file="$(find p3dx_control)/launch/control.launch" /> -->
